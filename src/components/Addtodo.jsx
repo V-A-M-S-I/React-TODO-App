@@ -17,10 +17,10 @@ export default function Addtodo(props) {
 
     return (
         <>
-            <div className=" mx-52 my-5 p-3 ">
+            <div className="mx-auto w-96 my-5">
                 <form onSubmit={handleSubmit} className="flex justify-center gap-3 ">
                     <input
-                        className="p-3 rounded-lg w-80 text-xl text-cyan-400 border-4"
+                        className="p-3 rounded-lg w-80 text-xl text-violet-500 border-4 font-semibold"
                         type="text"
                         placeholder="enter your todo"
                         value={todoText} // Set the input value to the state
